@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+header {
+
+    background-image: url("https://phonoteka.org/uploads/posts/2021-03/1616618660_49-p-fon-estetika-51.jpg");
+    background-color: #37abc8;
+    padding-top: 30px;
+    padding-bottom: 250px;
+    background-size: cover;
+
+}
+
+.flexumumi {
+
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 270px;
+
+}
+
+.flexumumi .travelly {
+    padding-right: 1005px;
+}
+
+.flexumumi i {
+    color: white;
+    font-size: larger;
+}
+
+.headline h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans, sans-serif;";
+    text-align: center;
+    margin-top: 50px;
+}
+
+form input {
+
+    margin-top: 39px;
+    width: 326px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+
+}
+
+input ::placeholder {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans, sans-serif;";
+    text-align: center;
+}
+
+.buttn {
+    margin-top: 39px;
+    width: 122px;
+    height: 40px;
+    background-color: #fd4f32;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans, sans-serif;";
+    text-align: center;
+    border: none;
+    border-radius: 0;
+
+}
+
+.text1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* destination css starts */
+
+.sectionfordestination {
+    margin: auto;
+    background-color: #eeeeee;
+}
+
+.sectionfordestination h2 {
+
+    font-size: 17px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding-top: 55px;
+    padding-bottom: 10px;
+
+}
+
+.sectionfordestination p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans, sans-serif;";
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+
+.amazing {
+
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+.amazing img {
+
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 200px;
+
+}
+
+.div1 {
+    background-color: #ffffff;
+}
+
+.div1 h2 {
+    text-align: center;
+
+}
+
+.div1 p {
+    text-align: center;
+}
+
+/* section leave start */
+
+.leave {
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.leave h1 {
+    padding-top: 74px;
+    padding-bottom: 50px;
+    text-align: left;
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #323232;
+    font-weight: 300;
+    font-family: "Open Sans, sans-serif;";
+
+}
+
+.documents {
+    padding-top: 20px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.documents h2 {
+    font-size: 22px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.documents p {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans, sans-serif;";
+    flex-direction: row;
+}
+
+
+.subscribe h1 {
+    font-size: 25px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+.subscr input ::placeholder {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans, sans-serif;";
+    text-align: center;
+}
+
+.subscr form input {
+
+    margin-top: 39px;
+    width: 326px;
+    height: 40px;
+    background-color: #d5cccc;
+    border: none;
+    border-radius: 0;
+
+}
+
+.butnnn {
+    margin-top: 39px;
+    width: 122px;
+    height: 40px;
+    background-color: #fd4f32;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #dbd5d5;
+    font-weight: 700;
+    font-family: "Open Sans, sans-serif;";
+    text-align: center;
+    border: none;
+    border-radius: 0;
+
+}
+
+.subscr {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+/* footer starts */
+
+footer {
+
+    padding-top: 30px;
+    background-color: #eeeeee;
+    margin: auto;
+}
+
+footer h1 {
+
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans, sans-serif;";
+
+}
+
+.navs {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer nav ul {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+
+}
+
+footer nav ul li {
+
+    display: inline;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+}
+
+footer nav ul li a {
+
+    padding-left: 15px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+
+}
